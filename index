@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koffer gefunden</title>
+<style>
+  body { font-family: sans-serif; text-align: center; padding: 2rem; }
+  h1 { color: #333; }
+  p { font-size: 1.2rem; }
+</style>
+</head>
+<body>
+<h1>🧳 Koffer gefunden?</h1>
+<p>Dieser Koffer gehört Carsten.<br>
+Bitte melde dich:</p>
+<p>📞 <a href="tel:01755243059">0170 1234567</a><br>
+📧 <a href="mailto:brunni@ok.de">carsten@email.de</a></p>
+<p>Vielen Dank!</p>
+</body>
+</html>
