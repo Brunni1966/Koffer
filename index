@@ -5,17 +5,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Koffer gefunden</title>
 <style>
-  body { font-family: sans-serif; text-align: center; padding: 2rem; }
-  h1 { color: #333; }
-  p { font-size: 1.2rem; }
+  body { 
+    font-family: sans-serif; 
+    text-align: center; 
+    padding: 2rem; 
+    background-color: #f8f8f8; 
+    color: #333;
+  }
+  h1 { 
+    font-size: 2rem; 
+    margin-bottom: 1rem; 
+  }
+  p { 
+    font-size: 1.2rem; 
+    line-height: 1.5; 
+  }
+  a { 
+    color: #0066cc; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  a:hover { 
+    text-decoration: underline; 
+  }
+  .container { 
+    max-width: 500px; 
+    margin: auto; 
+    background: #fff; 
+    padding: 2rem; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+  }
 </style>
 </head>
 <body>
-<h1>🧳 Koffer gefunden?</h1>
-<p>Dieser Koffer gehört Carsten.<br>
-Bitte melde dich:</p>
-<p>📞 <a href="tel:01755243059">0170 1234567</a><br>
-📧 <a href="mailto:brunni@ok.de">carsten@email.de</a></p>
-<p>Vielen Dank!</p>
+<div class="container">
+  <h1>🧳 Koffer gefunden?</h1>
+  <p>Dieser Koffer gehört <strong>Carsten</strong>.<br>
+  Bitte melde dich:</p>
+  <p>📞 <a href="tel:01701234567">0170 1234567</a><br>
+  📧 <a href="mailto:carsten@email.de">carsten@email.de</a></p>
+  <p>Vielen Dank!</p>
+</div>
 </body>
 </html>
